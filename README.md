@@ -1,5 +1,5 @@
 # 100DaysOfSwift
-Paul Hudson's 100 Days of Swift Challenge.
+**Paul Hudson's 100 Days of Swift Challenge.**
 
 Project 1 - Storm Viewer: View Controllers, Storyboard, FileManager
 
