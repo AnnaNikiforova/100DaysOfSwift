@@ -14,3 +14,5 @@ Project 5 - Word Scramble: Reading from disk, UIAlertController, IndexPath
 Project 6 - Auto Layout: Auto Layout, Constraints, Visual Format Language
 
 Project 7 - Whitehouse Petition: UITabBarController, JSON, Data, Codable
+
+Project 8 - 7 Swifty Words: UI in code, Text alignment, Layout Margins, UIFont
