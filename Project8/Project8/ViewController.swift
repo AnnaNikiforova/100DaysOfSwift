@@ -76,6 +76,8 @@ class ViewController: UIViewController {
         
         let buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
+        buttonsView.layer.borderWidth = 1
+        buttonsView.layer.borderColor = UIColor.lightGray.cgColor
         view.addSubview(buttonsView)
         
         NSLayoutConstraint.activate([
@@ -124,8 +126,6 @@ class ViewController: UIViewController {
                 
                 let frame = CGRect(x: column * width, y: row * height, width: width, height: height)
                 letterButton.frame = frame
-                letterButton.layer.borderWidth = 1
-                letterButton.layer.borderColor = UIColor.lightGray.cgColor
                 buttonsView.addSubview(letterButton)
                 letterButtons.append(letterButton)
             }
